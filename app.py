@@ -149,3 +149,19 @@ async def predict(file: UploadFile = File(...)):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing image: {str(e)}")
+
+# Add a root endpoint for health check
+@app.get("/")
+async def root():
+    return {"status": "healthy", "message": "Plant Disease Detection API is running"}
+
+# Add this at the end of the file
+if __name__ == "__main__":
+    import uvicorn
+    import os
+    
+    # Get port from environment variable or default to 8000
+    port = int(os.environ.get("PORT", 8000))
+    
+    # Run the application
+    uvicorn.run("app:app", host="0.0.0.0", port=port)

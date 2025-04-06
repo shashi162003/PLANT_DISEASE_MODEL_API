@@ -2,10 +2,12 @@ services:
   - type: web
     name: plant-disease-detection
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app -k uvicorn.workers.UvicornWorker
+    buildCommand: pip install python-multipart -r requirements.txt
+    startCommand: gunicorn -w 4 -k uvicorn.workers.UvicornWorker -b 0.0.0.0:$PORT app:app
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.8
+      - key: PORT
+        value: 10000
     healthCheckPath: /
     autoDeploy: true
