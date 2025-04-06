@@ -5,18 +5,19 @@ import numpy as np
 from PIL import Image
 import io
 import json
+import os
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
 app = FastAPI()
 
-# Load the pre-trained model (replace with your model's path)
-model = tf.keras.models.load_model('trained_plant_disease_model.keras')
-
-# Load the disease data from data.json
-with open('data.json', 'r') as f:
-    disease_data = json.load(f)
-
-# Define the list of class names (disease names) in the order matching the model's output
+# Define global variables
+model = None
+disease_data = {}
 CLASS_NAMES = [
     'Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
     'Blueberry___healthy', 'Cherry_(including_sour)___Powdery_mildew',
@@ -34,15 +35,42 @@ CLASS_NAMES = [
     'Tomato___healthy'
 ]
 
-# Get the model's expected input shape (e.g., (224, 224, 3))
-input_shape = model.input_shape[1:3]  # Extract height and width
-
 # Define allowed file extensions
 ALLOWED_EXTENSIONS = {'.jpg', '.jpeg', '.png'}
+
+# Load model and data on startup
+@app.on_event("startup")
+async def startup_event():
+    global model, disease_data
+    
+    try:
+        # Load the disease data from data.json
+        logger.info("Loading disease data from data.json")
+        with open('data.json', 'r') as f:
+            disease_data = json.load(f)
+        logger.info("Successfully loaded disease data")
+        
+        # Load the pre-trained model
+        logger.info("Loading TensorFlow model")
+        model = tf.keras.models.load_model('trained_plant_disease_model.keras')
+        logger.info("Successfully loaded TensorFlow model")
+    except Exception as e:
+        logger.error(f"Error during startup: {str(e)}")
+        # Don't raise an exception here, let the app start anyway
+        # We'll handle missing model/data in the endpoints
+
+# Get the model's expected input shape
+def get_input_shape():
+    if model:
+        return model.input_shape[1:3]  # Extract height and width
+    else:
+        # Default shape if model is not loaded
+        return (224, 224)
 
 # Helper function to preprocess the image
 def preprocess_image(image: Image.Image) -> np.ndarray:
     # Resize image to match model input shape
+    input_shape = get_input_shape()
     image = image.resize(input_shape)
     # Convert to array
     img_array = tf.keras.preprocessing.image.img_to_array(image)
@@ -124,6 +152,13 @@ def get_disease_data(disease_name: str):
 # Define the prediction endpoint
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
+    # Check if model is loaded
+    if model is None:
+        return JSONResponse(
+            status_code=503,
+            content={"error": "Model not loaded. Please try again later."}
+        )
+    
     # Check file extension
     if not any(file.filename.lower().endswith(ext) for ext in ALLOWED_EXTENSIONS):
         raise HTTPException(status_code=400, detail="Unsupported file format. Use JPG, JPEG, or PNG.")
@@ -148,17 +183,25 @@ async def predict(file: UploadFile = File(...)):
         return JSONResponse(content=disease_info)
 
     except Exception as e:
+        logger.error(f"Error in prediction: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error processing image: {str(e)}")
 
 # Add a root endpoint for health check
 @app.get("/")
 async def root():
-    return {"status": "healthy", "message": "Plant Disease Detection API is running"}
+    model_status = "loaded" if model is not None else "not loaded"
+    data_status = "loaded" if disease_data else "not loaded"
+    
+    return {
+        "status": "healthy",
+        "message": "Plant Disease Detection API is running",
+        "model_status": model_status,
+        "data_status": data_status
+    }
 
 # Add this at the end of the file
 if __name__ == "__main__":
     import uvicorn
-    import os
     
     # Get port from environment variable or default to 8000
     port = int(os.environ.get("PORT", 8000))
