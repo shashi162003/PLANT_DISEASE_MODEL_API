@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: plant-disease-detection
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app -k uvicorn.workers.UvicornWorker
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+    healthCheckPath: /
+    autoDeploy: true

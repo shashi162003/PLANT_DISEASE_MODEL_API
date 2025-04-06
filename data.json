@@ -1,0 +1,534 @@
+{
+    "Apple Scab": {
+        "Disease Name": "Apple Scab",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Venturia inaequalis, an ascomycete fungus that overwinters as pseudothecia in fallen leaves and releases ascospores in spring during wet conditions.",
+        "Commonly Affects (plants, regions)": "Apple trees (Malus domestica); primarily affects leaves, fruit, and occasionally twigs in temperate regions with cool, wet springs, such as North America and Europe.",
+        "Symptoms (visual + early signs)": "Early signs include small, olive-green spots on the upper leaf surfaces within 10-14 days of infection, turning black and velvety as they mature. Spots may coalesce into larger, rough, scabby lesions. On fruit, dark, sunken blemishes form, often cracking or deforming the apple. Severe infections cause premature leaf yellowing and drop, reducing photosynthesis and tree vigor.",
+        "How to Cure / Treat": "Initiate fungicide applications at bud break, using captan, myclobutanil, or sulfur-based products, and continue every 7-14 days during wet periods, especially from petal fall to early fruit development. Remove and destroy infected leaves, fruit, and twigs to reduce fungal inoculum. In organic systems, apply sulfur or lime-sulfur sprays, supplemented by Bacillus subtilis as a biological control. Avoid spraying during bloom to protect pollinators.",
+        "Prevention Tips": "Enhance air circulation by pruning trees annually in late winter to open the canopy, reducing humidity around foliage. Collect and destroy fallen leaves and infected fruit in autumn to eliminate overwintering spores. Plant resistant varieties like 'Enterprise', 'Liberty', 'Freedom', or 'GoldRush'. Avoid overhead irrigation; use drip systems to keep leaves dry. Apply preventative fungicides before forecasted rain, guided by disease forecasting models like the Mills Table.",
+        "Recommended Pesticides/Fertilizers": "Captan (1-2 lbs per 100 gallons of water, applied every 7-10 days during wet periods), Myclobutanil (systemic, 10-14 day intervals, follow label rates), Sulfur-based fungicides (organic, 2-3 lbs per 100 gallons, ensure thorough coverage). Avoid excessive nitrogen fertilizers that promote lush, susceptible growth; use balanced NPK (e.g., 10-10-10) or potassium-rich fertilizers to boost resistance.",
+        "When It Usually Occurs": "Most prevalent in spring, from bud break to early fruit development, during prolonged wet periods when temperatures favor spore germination.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 70,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Wet, humid weather with prolonged leaf wetness from rain or dew, favoring fungal spore germination and infection"
+    },
+    "Apple Black Rot": {
+        "Disease Name": "Apple Black Rot",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Botryosphaeria obtusa, a fungus that infects through wounds or natural openings, often exacerbated by environmental stress.",
+        "Commonly Affects (plants, regions)": "Apple trees (Malus domestica); affects leaves, fruit, and branches in temperate regions, particularly in the eastern United States and parts of Europe.",
+        "Symptoms (visual + early signs)": "Small, purple-brown spots on leaves that enlarge and darken, often with a concentric ring pattern. On fruit, firm, dark, sunken lesions develop, sometimes with concentric rings, leading to fruit rot. Branch cankers may form in severe cases, causing dieback.",
+        "How to Cure / Treat": "Remove and destroy all infected fruit, twigs, and dead wood during dormancy to reduce inoculum. Apply fungicides such as sulfur-based products or captan following petal fall and after rainfall. For severe infections, consider pruning out cankered branches.",
+        "Prevention Tips": "Ensure good sanitation by removing mummified fruit and pruning dead wood. Avoid mechanical injuries during pruning or harvesting. Thin fruit clusters to improve air circulation and reduce humidity around fruit. Use resistant varieties where available, such as 'Empire' or 'Cortland'.",
+        "Recommended Pesticides/Fertilizers": "Sulfur-based fungicides (apply every 10-14 days during wet periods), Captan (use during fruit development, follow label rates). Use balanced fertilizers like 10-10-10 NPK to avoid overstimulation of growth, which can increase susceptibility.",
+        "When It Usually Occurs": "Typically during warm, wet summers, particularly after rain or irrigation that keeps foliage wet for extended periods.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 60,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Warm and wet conditions, especially on stressed or wounded trees"
+    },
+    "Apple Cedar Apple Rust": {
+        "Disease Name": "Cedar Apple Rust",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Gymnosporangium juniperi-virginianae, a heteroecious rust fungus requiring both apple and cedar/juniper hosts to complete its life cycle.",
+        "Commonly Affects (plants, regions)": "Apple trees (Malus domestica) and cedar/juniper trees (Juniperus spp.); regions where both hosts coexist, such as the eastern and central United States.",
+        "Symptoms (visual + early signs)": "Bright orange-yellow spots on apple leaves and fruit, often with a fringe of fungal tubes (aecia) on the underside of leaves. Infected leaves may drop prematurely, and fruit may be deformed or blemished, reducing marketability.",
+        "How to Cure / Treat": "Apply fungicides like propiconazole or myclobutanil from the pink bud stage through early summer. Remove infected leaves and fruit when possible. In areas with cedar hosts, consider removing cedar trees within a 1-2 mile radius to break the disease cycle.",
+        "Prevention Tips": "Plant resistant apple varieties such as 'Freedom', 'Redfree', or 'Jonafree'. Prune apple trees to improve air circulation and reduce humidity. Avoid planting near cedar or juniper trees if possible. Use fungicide sprays preventatively in areas with a history of rust.",
+        "Recommended Pesticides/Fertilizers": "Propiconazole (apply 4:8 oz per acre), Myclobutanil (follow label instructions for rates and timing), Sulfur (organic alternative, apply every 7-10 days). Use balanced fertilizers to maintain tree vigor without promoting excessive growth.",
+        "When It Usually Occurs": "Occurs in spring during cool, wet weather, especially in regions with cedar hosts nearby.",
+        "Temperature": {
+            "min_temperature": 10,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 60,
+            "max_humidity": 90
+        },
+        "Weather Conditions": "Cool, moist conditions conducive to fungal spore release and infection"
+    },
+    "Apple Healthy": {
+        "Disease Name": "Apple Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : tree exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Apple trees (Malus domestica); represents optimal health status across all growing regions.",
+        "Symptoms (visual + early signs)": "Leaves are vibrant green, smooth, and free of spots, lesions, or yellowing. Fruit is firm, uniformly colored (variety-dependent), and blemish-free. Trees exhibit vigorous growth, with strong branches, a high fruit set, and minimal premature leaf drop.",
+        "How to Cure / Treat": "Not applicable; maintain routine care including consistent watering (1-2 inches weekly), annual pruning, and soil nutrient management to sustain health.",
+        "Prevention Tips": "Conduct regular inspections for early signs of pests or diseases. Prune annually in late winter to remove dead or crowded branches, shaping the canopy for light and air penetration. Maintain soil moisture with organic mulch (e.g., wood chips) and drip irrigation. Apply balanced fertilizers in early spring. Ensure pollination by planting compatible varieties or supporting pollinators like bees.",
+        "Recommended Pesticides/Fertilizers": "Apply general-purpose fertilizers like 10-10-10 NPK (1 lb per tree, adjusted by size and soil test) in spring. No pesticides are typically required; use horticultural oil or insecticidal soap only if minor pest issues (e.g., aphids) arise. Avoid over-fertilization to prevent weak growth.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 40,
+            "max_humidity": 60
+        },
+        "Weather Conditions": "Full sun (6-8 hours daily), well-drained loamy soil (pH 6.0:6.5), moderate rainfall or irrigation"
+    },
+    "Blueberry Healthy": {
+        "Disease Name": "Blueberry Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : plant exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Blueberry bushes (Vaccinium spp.); represents optimal health status in acidic, well-drained soils across temperate regions.",
+        "Symptoms (visual + early signs)": "Glossy, dark green leaves free of spots, wilting, or discoloration. Plump, uniformly blue berries with consistent size and flavor. Strong cane growth with abundant fruiting and minimal dieback.",
+        "How to Cure / Treat": "Not applicable; maintain cultural care practices such as consistent watering, mulching, and annual pruning.",
+        "Prevention Tips": "Maintain acidic soil (pH 4.5:5.5) with organic matter like peat moss or pine bark. Water regularly (1-2 inches per week), especially during fruit development. Mulch with pine needles or sawdust to retain moisture and suppress weeds. Prune annually to remove old canes and encourage new growth. Ensure cross-pollination by planting multiple varieties.",
+        "Recommended Pesticides/Fertilizers": "Use acid-loving plant fertilizers (e.g., ammonium sulfate, 1:2 oz per bush in spring). No pesticides are typically required; use insecticidal soap or neem oil if pests like aphids or mites appear. Avoid over-fertilization to prevent root burn.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun to partial shade (4:6 hours of sun daily), well-drained acidic soil (pH 4.5:5.5), moderate rainfall or irrigation"
+    },
+    "Cherry Powdery Mildew": {
+        "Disease Name": "Cherry Powdery Mildew",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Podosphaera clandestina, a fungus that thrives in warm, dry conditions with high humidity at night.",
+        "Commonly Affects (plants, regions)": "Cherry trees (Prunus avium and Prunus cerasus); affects leaves, shoots, and fruit in temperate regions, particularly in areas with poor air circulation.",
+        "Symptoms (visual + early signs)": "White, powdery fungal growth on the upper and lower surfaces of leaves, young shoots, and sometimes fruit. Infected leaves may curl, yellow, and drop prematurely. Fruit may be distorted or covered in mildew, reducing marketability.",
+        "How to Cure / Treat": "Apply fungicides such as sulfur, potassium bicarbonate, or horticultural oil at the first sign of symptoms. Repeat applications every 7-10 days during warm, dry weather. Remove and destroy infected plant parts to reduce spore spread. In severe cases, prune to open the canopy and improve air circulation.",
+        "Prevention Tips": "Prune trees annually to open the canopy and reduce humidity around foliage. Avoid overhead watering; use drip irrigation to keep leaves dry. Plant resistant varieties where available, such as 'Rainier' or 'Lapins'. Apply preventative fungicides in early spring before symptoms appear.",
+        "Recommended Pesticides/Fertilizers": "Sulfur (apply as dust or spray, 2:3 lbs per 100 gallons), Potassium bicarbonate (1:2 lbs per acre), Horticultural oil (use as a dormant season treatment or during the growing season at 1% solution). Use balanced fertilizers to avoid excessive nitrogen, which can promote susceptible growth.",
+        "When It Usually Occurs": "Occurs during early spring and summer, especially in warm, dry days with cool, humid nights.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 60,
+            "max_humidity": 80
+        },
+        "Weather Conditions": "Warm, dry days with cool, humid nights favoring fungal spore production and spread"
+    },
+    "Cherry Healthy": {
+        "Disease Name": "Cherry Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : tree exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Cherry trees (Prunus avium and Prunus cerasus); represents optimal health status in well-managed orchards across temperate regions.",
+        "Symptoms (visual + early signs)": "Dark green, glossy leaves without fungal growth, spots, or yellowing. Firm, brightly colored fruit with consistent size and flavor. Strong branch structure with minimal dieback or cracking.",
+        "How to Cure / Treat": "Not applicable; continue routine cultural practices such as pruning, watering, and fertilizing.",
+        "Prevention Tips": "Prune in late winter to remove dead or crowded branches and shape the tree. Water deeply (1-2 inches per week), especially during dry spells. Apply balanced fertilizers in spring. Use dormant oil sprays in late winter to control overwintering pests. Ensure proper pollination by planting compatible varieties.",
+        "Recommended Pesticides/Fertilizers": "Balanced fertilizers like 10-10-10 NPK (1:2 lbs per tree annually). No pesticides are normally required; use horticultural oil or insecticidal soap if pests like aphids or scale appear. Avoid over-fertilization to prevent excessive growth.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun (6-8 hours daily), well-drained loamy soil (pH 6.0:7.0), moderate rainfall or irrigation"
+    },
+    "Corn Gray Leaf Spot": {
+        "Disease Name": "Corn Gray Leaf Spot",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Cercospora zeae-maydis, a pathogen that survives in crop residue and spreads via wind-blown spores during warm, humid weather.",
+        "Commonly Affects (plants, regions)": "Corn plants (Zea mays); primarily affects leaves in humid, corn-intensive regions like the U.S. Corn Belt and parts of South America.",
+        "Symptoms (visual + early signs)": "Early signs include small, tan lesions parallel to leaf veins, appearing 2-3 weeks after infection. Lesions expand into rectangular, grayish-white areas with distinct borders, often coalescing into large necrotic zones. Severe infections reduce photosynthesis, leading to yield losses up to 50% if untreated.",
+        "How to Cure / Treat": "Apply foliar fungicides like azoxystrobin or propiconazole at the first sign of disease (typically V8 stage) or preventatively during tasseling in high-risk areas. Repeat applications every 14-21 days during wet weather. Remove or bury crop residue post-harvest to reduce overwintering spores. Integrate resistant hybrids where available.",
+        "Prevention Tips": "Plant resistant hybrids (e.g., Pioneer or Dekalb resistant lines) suited to local conditions. Practice crop rotation with non-hosts like soybeans or small grains for 1-2 years to break the disease cycle. Use wider row spacing (e.g., 30 inches) to improve ventilation. Avoid continuous corn cropping to limit pathogen buildup.",
+        "Recommended Pesticides/Fertilizers": "Azoxystrobin (6-10 oz per acre, applied via ground or aerial spray), Propiconazole (4-8 oz per acre, rotate with strobilurins to prevent resistance), Strobilurin-based fungicides (e.g., pyraclostrobin, follow label). Use balanced NPK fertilizers (e.g., 120-60-60 lbs per acre) based on soil tests; avoid excess nitrogen that increases leaf susceptibility.",
+        "When It Usually Occurs": "Most severe in warm, humid summers, particularly from tasseling to grain fill, when frequent rainfall or irrigation maintains leaf wetness.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 70,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Warm, humid conditions with extended periods of leaf wetness from dew, fog, or rain, promoting fungal spread"
+    },
+    "Corn Healthy": {
+        "Disease Name": "Corn Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : plant exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Corn plants (Zea mays); represents optimal health status in well-managed fields across temperate and subtropical regions.",
+        "Symptoms (visual + early signs)": "Uniform green leaves without spots, lesions, or discoloration. Sturdy stalks with fully developed ears and plump kernels. Vigorous growth with minimal lodging or nutrient deficiencies.",
+        "How to Cure / Treat": "Not applicable; maintain routine cultural practices such as proper irrigation, fertilization, and pest monitoring.",
+        "Prevention Tips": "Perform soil tests to guide fertilization and pH adjustment (ideal pH 6.0:6.8). Rotate crops with legumes or small grains to preserve soil health and reduce pest buildup. Use certified disease-free seeds. Ensure adequate spacing (e.g., 30-inch rows) for air circulation. Irrigate as needed to maintain consistent soil moisture, especially during silking and grain fill.",
+        "Recommended Pesticides/Fertilizers": "Balanced NPK fertilizers (e.g., 120-60-60 lbs per acre, adjusted by soil tests). No pesticides are typically required; use Bt corn or insecticides like carbaryl if pests like corn borers appear. Avoid over-application of nitrogen to prevent lodging.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun (6-8 hours daily), fertile well-drained soil (pH 6.0:6.8), consistent moisture during critical growth stages"
+    },
+    "Grape Black Rot": {
+        "Disease Name": "Grape Black Rot",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Guignardia bidwellii, a fungus that overwinters in mummified berries and infected plant debris.",
+        "Commonly Affects (plants, regions)": "Grapevines (Vitis spp.); primarily affects leaves, clusters, and berries in humid regions, such as the eastern United States and parts of Europe.",
+        "Symptoms (visual + early signs)": "Small, tan to brown spots on leaves that enlarge and develop a dark border. On berries, lesions become black, sunken, and mummified, often with tiny black fungal bodies (pycnidia). Infected berries shrivel and drop prematurely, reducing yield.",
+        "How to Cure / Treat": "Prune vines to remove infected parts and improve air circulation. Remove overwintering mummies from the vineyard floor. Apply fungicides such as myclobutanil or captan from bloom through fruit set, especially during wet weather. Use a spreader-sticker to enhance fungicide coverage.",
+        "Prevention Tips": "Train vines on trellises to promote drying and reduce humidity. Maintain a clean, debris-free vineyard to reduce inoculum. Use resistant varieties like 'Concord' or 'Norton' where possible. Apply preventative fungicides before forecasted rain, especially during critical infection periods.",
+        "Recommended Pesticides/Fertilizers": "Myclobutanil (2:4 oz per acre), Captan (2:3 lbs per 100 gallons), Sulfur (organic option, apply every 7-10 days). Use low-nitrogen fertilizers to avoid excessive vegetative growth, which can increase disease pressure.",
+        "When It Usually Occurs": "Most active during bloom and fruit development in warm, wet conditions.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 70,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Warm and moist conditions that favor fungal growth and spore dispersal"
+    },
+    "Grape Healthy": {
+        "Disease Name": "Grape Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : vine exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Grapevines (Vitis spp.); represents optimal health status in well-managed vineyards across temperate regions.",
+        "Symptoms (visual + early signs)": "Lush, green leaves free of spots, wilting, or discoloration. Clusters of plump, juicy grapes with consistent size, color, and flavor. Strong cane growth with minimal dieback or nutrient deficiencies.",
+        "How to Cure / Treat": "Not applicable; maintain regular monitoring, pruning, and cultural practices to sustain health.",
+        "Prevention Tips": "Prune in late winter to remove dead or crowded canes and shape the vine. Train vines properly on trellises to support growth and enhance air flow. Apply balanced fertilizers in spring. Ensure consistent soil moisture with drip irrigation. Use netting or other bird deterrents to protect fruit.",
+        "Recommended Pesticides/Fertilizers": "Balanced fertilizers (e.g., 10-10-10 NPK at 1:2 lbs per vine). No pesticides are normally required; use sulfur or copper-based fungicides preventatively if disease history exists. Avoid over-fertilization to prevent excessive growth.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun (6-8 hours daily), well-drained soil (pH 6.0:6.5), moderate rainfall or irrigation"
+    },
+    "Orange Haunglongbing (Citrus Greening)": {
+        "Disease Name": "Haunglongbing (Citrus Greening)",
+        "Cause (bacteria/fungi/virus/pest)": "Bacterial : caused by Candidatus Liberibacter spp., transmitted by the Asian citrus psyllid (Diaphorina citri).",
+        "Commonly Affects (plants, regions)": "Citrus trees, particularly oranges (Citrus sinensis); prevalent in regions where the Asian citrus psyllid is active, such as Florida, California, and parts of Asia.",
+        "Symptoms (visual + early signs)": "Yellowing and mottling of leaves, often resembling nutrient deficiencies. Leaves may become thickened and leathery. Fruit is small, lopsided, and bitter, with a green color at the stem end. Trees exhibit stunted growth, twig dieback, and reduced fruit production.",
+        "How to Cure / Treat": "There is no cure once infected; management involves controlling psyllid vectors with insecticides and removing severely infected trees to prevent spread. Use systemic insecticides like imidacloprid for psyllid control. Apply nutritional programs with enhanced foliar sprays (e.g., zinc, manganese) to prolong tree productivity.",
+        "Prevention Tips": "Use certified disease-free nursery stock. Quarantine new plants and monitor for psyllids. Apply insecticides regularly to control vector populations. Use reflective mulches or kaolin clay to deter psyllids. Plant resistant rootstocks or varieties where available, such as 'US-942' or 'Sugar Belle'.",
+        "Recommended Pesticides/Fertilizers": "Imidacloprid (0.25:0.5 oz per tree, systemic), Spinosad (2:4 oz per acre, organic option), Monthly foliar micronutrient sprays (e.g., zinc sulfate, manganese sulfate). Avoid over-fertilization with nitrogen, which can attract psyllids.",
+        "When It Usually Occurs": "Spread increases in warm weather with high psyllid activity, typically spring through fall.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 35
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 80
+        },
+        "Weather Conditions": "Warm conditions with active vector populations, often exacerbated by dry spells"
+    },
+    "Peach Bacterial Spot": {
+        "Disease Name": "Peach Bacterial Spot",
+        "Cause (bacteria/fungi/virus/pest)": "Bacterial : caused by Xanthomonas arboricola pv. pruni, a bacterium that enters through wounds or natural openings.",
+        "Commonly Affects (plants, regions)": "Peach trees (Prunus persica); affects leaves, fruit, and twigs in warm, humid regions, such as the southeastern United States.",
+        "Symptoms (visual + early signs)": "Small, water-soaked spots on leaves that turn dark brown to black, often with a shot-hole appearance as centers drop out. On fruit, sunken, cracked lesions develop, reducing marketability. Twig cankers may form in severe cases, leading to dieback.",
+        "How to Cure / Treat": "Apply copper-based bactericides during dormancy and at bud swell, followed by additional sprays during wet springs. Remove and destroy infected plant parts. In severe cases, prune out cankered twigs to reduce bacterial reservoirs.",
+        "Prevention Tips": "Plant resistant varieties (e.g., 'Redhaven', 'Contender'). Avoid overhead irrigation to reduce leaf wetness. Prune to improve air circulation and reduce humidity around foliage. Use windbreaks to minimize fruit injury from blowing sand or debris.",
+        "Recommended Pesticides/Fertilizers": "Copper-based bactericides (e.g., copper hydroxide, 2:3 lbs per 100 gallons), Oxytetracycline (where permitted, follow label rates). Use balanced fertilizers to support overall tree health without promoting excessive growth.",
+        "When It Usually Occurs": "Most severe during warm, wet springs and summers, especially after rain or irrigation.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 70,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Warm, moist weather that promotes bacterial growth and spread"
+    },
+    "Peach Healthy": {
+        "Disease Name": "Peach Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : tree exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Peach trees (Prunus persica); represents optimal health status in well-managed orchards across temperate regions.",
+        "Symptoms (visual + early signs)": "Vibrant green leaves without spots, lesions, or yellowing. Smooth, juicy, uniformly colored fruit with no blemishes or cracks. Strong branch structure with minimal dieback or gumming.",
+        "How to Cure / Treat": "Not applicable; maintain regular watering, pruning, and fertilization to sustain health.",
+        "Prevention Tips": "Prune in late winter to remove dead wood and shape the tree for light and air penetration. Water deeply (1:2 inches per week), especially during fruit development. Apply balanced fertilizers in early spring. Thin fruit to prevent branch breakage and improve fruit size. Use dormant oil sprays to control overwintering pests.",
+        "Recommended Pesticides/Fertilizers": "Balanced fertilizers such as 10-10-10 NPK (1:2 lbs per tree). No pesticides are normally required; use insecticidal soap or horticultural oil if pests like peach twig borers appear. Avoid over-fertilization to prevent excessive growth.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 40,
+            "max_humidity": 60
+        },
+        "Weather Conditions": "Full sun (6-8 hours daily), well-drained soil (pH 6.0:6.5), moderate rainfall or irrigation"
+    },
+    "Pepper Bell Bacterial Spot": {
+        "Disease Name": "Pepper Bell Bacterial Spot",
+        "Cause (bacteria/fungi/virus/pest)": "Bacterial : caused by Xanthomonas campestris pv. vesicatoria, a bacterium that thrives in warm, wet conditions.",
+        "Commonly Affects (plants, regions)": "Bell pepper plants (Capsicum annuum); affects leaves, stems, and fruit in humid regions, such as the southeastern United States and tropical areas.",
+        "Symptoms (visual + early signs)": "Small, water-soaked spots on leaves that turn dark brown to black with yellow halos. Spots may coalesce, leading to leaf drop. On fruit, raised, scabby lesions develop, reducing marketability. Stem lesions may girdle the plant, causing wilting.",
+        "How to Cure / Treat": "Apply copper-based bactericides weekly during wet periods, starting at transplanting. Remove and destroy infected plants and debris. Use drip irrigation to avoid wetting foliage. In severe cases, rotate to non-host crops for 2-3 years.",
+        "Prevention Tips": "Use certified disease-free seeds or treat seeds with hot water (50°C for 25 minutes). Practice crop rotation with non-hosts (e.g., corn, beans). Avoid working in fields when plants are wet to reduce spread. Plant resistant varieties where available, such as 'Paladin' or 'Aristotle'.",
+        "Recommended Pesticides/Fertilizers": "Copper-based bactericides (e.g., copper sulfate, 1:2 lbs per 100 gallons), Mancozeb (1.5:2 lbs per acre). Use fertilizers high in potassium to boost plant resistance. Avoid excessive nitrogen, which can promote susceptible growth.",
+        "When It Usually Occurs": "More common during warm, rainy weather with high humidity.",
+        "Temperature": {
+            "min_temperature": 24,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 80,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Warm, rainy weather with poor air circulation favoring bacterial spread"
+    },
+    "Pepper Bell Healthy": {
+        "Disease Name": "Pepper Bell Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : plant exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Bell pepper plants (Capsicum annuum); represents optimal health status in well-managed fields across temperate and subtropical regions.",
+        "Symptoms (visual + early signs)": "Dark green, glossy leaves without spots, yellowing, or wilting. Firm, vibrant, smooth-skinned fruits with consistent color and size. Sturdy stems with minimal lodging or breakage.",
+        "How to Cure / Treat": "Not applicable; maintain proper staking or caging, consistent watering, and fertilization to sustain health.",
+        "Prevention Tips": "Rotate crops with non-solanaceous plants every 2-3 years. Apply balanced fertilizers at planting and during flowering. Water at the base (1-2 inches per week) to avoid wetting foliage. Use mulch to retain moisture and suppress weeds. Ensure adequate spacing for air circulation.",
+        "Recommended Pesticides/Fertilizers": "Fertilizers high in potassium and phosphorus (e.g., 5-10-10 NPK at 1:2 lbs per 100 sq ft). No pesticides are normally needed; use neem oil or insecticidal soap if pests like aphids appear. Avoid over-fertilization to prevent blossom end rot.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun (6:8 hours daily), well-drained soil (pH 6.0:6.8), consistent moisture without waterlogging"
+    },
+    "Potato Early Blight": {
+        "Disease Name": "Potato Early Blight",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Alternaria solani, a fungus that survives in infected plant debris and soil.",
+        "Commonly Affects (plants, regions)": "Potato plants (Solanum tuberosum); primarily affects leaves and tubers in warm, humid regions worldwide.",
+        "Symptoms (visual + early signs)": "Dark brown to black target-like spots on lower leaves, often with concentric rings. Spots enlarge and coalesce, leading to yellowing and defoliation. Tubers may develop dark, sunken lesions with a corky texture, reducing storage quality.",
+        "How to Cure / Treat": "Apply fungicides such as chlorothalonil, azoxystrobin, or mancozeb starting at flowering or earlier in wet seasons. Repeat applications every 7-10 days during favorable conditions. Remove and destroy infected debris post-harvest. Use drip irrigation to keep foliage dry.",
+        "Prevention Tips": "Rotate crops with non-solanaceous plants for 2-3 years. Use certified disease-free seed potatoes. Hill soil around plants to protect tubers from sunlight and infection. Avoid overhead irrigation. Plant resistant varieties like 'Kennebec' or 'Elba' where available.",
+        "Recommended Pesticides/Fertilizers": "Chlorothalonil (1:1.5 pints per acre), Azoxystrobin (6:10 oz per acre), Mancozeb (1.5:2 lbs per acre). Use moderate nitrogen fertilizers to avoid excessive foliage growth, which can increase disease pressure.",
+        "When It Usually Occurs": "Favored by warm, wet weather with alternating dry spells, typically mid to late summer.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 60,
+            "max_humidity": 90
+        },
+        "Weather Conditions": "Warm, wet periods alternating with drier spells, promoting fungal spore production and infection"
+    },
+    "Potato Late Blight": {
+        "Disease Name": "Potato Late Blight",
+        "Cause (bacteria/fungi/virus/pest)": "Oomycete : caused by Phytophthora infestans, a water mold that thrives in cool, wet conditions.",
+        "Commonly Affects (plants, regions)": "Potato plants (Solanum tuberosum); affects leaves, stems, and tubers in cool, humid regions, such as the Pacific Northwest and parts of Europe.",
+        "Symptoms (visual + early signs)": "Dark, water-soaked lesions on leaves and stems that turn brown to black with white fuzzy growth (sporangia) on the underside of leaves during humid conditions. Tubers develop dark, sunken rot with a reddish-brown interior. Severe infections can lead to complete crop loss within days.",
+        "How to Cure / Treat": "Remove and destroy infected plants and tubers immediately to prevent spread. Apply fungicides such as metalaxyl, mancozeb, or chlorothalonil preventatively before wet weather. Use a combination of systemic and protectant fungicides for best control. Ensure proper field drainage to reduce standing water.",
+        "Prevention Tips": "Plant resistant varieties (e.g., 'Kennebec', 'Defender'). Avoid overhead irrigation; use drip systems to keep foliage dry. Practice crop rotation with non-hosts for 3-4 years. Use certified disease-free seed potatoes. Monitor weather forecasts and apply fungicides before forecasted rain.",
+        "Recommended Pesticides/Fertilizers": "Metalaxyl (0.5:1 lb per acre, systemic), Mancozeb (1.5:2 lbs per acre, protectant), Chlorothalonil (1:1.5 pints per acre). Use balanced fertilizers to support plant health without promoting excessive growth.",
+        "When It Usually Occurs": "Occurs rapidly in cool, wet summers with prolonged leaf wetness, typically during periods of high humidity and rain.",
+        "Temperature": {
+            "min_temperature": 10,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 80,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Cool and wet conditions with high humidity and extended periods of leaf wetness"
+    },
+    "Potato Healthy": {
+        "Disease Name": "Potato Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : plant exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Potato plants (Solanum tuberosum); represents optimal health status in well-managed fields across temperate regions.",
+        "Symptoms (visual + early signs)": "Lush green leaves without spots, lesions, or wilting. Sturdy stems with minimal lodging. Firm, smooth tubers free of rot, blemishes, or discoloration. High yield with consistent tuber size and quality.",
+        "How to Cure / Treat": "Not applicable; maintain proper crop rotation, irrigation, and fertilization to sustain health.",
+        "Prevention Tips": "Rotate crops every 2-3 years with non-solanaceous plants. Use certified disease-free seed potatoes. Hill soil to protect tubers from sunlight and greening. Water consistently (1-2 inches per week), especially during tuber formation. Apply balanced fertilizers based on soil tests. Monitor for pests like potato beetles and apply controls as needed.",
+        "Recommended Pesticides/Fertilizers": "High-potassium fertilizers (e.g., 5-10-10 NPK, 2:3 lbs per 100 sq ft). No pesticides are typically required; use Bt or spinosad if pests like potato beetles appear. Avoid over-fertilization to prevent tuber defects.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun (6-8 hours daily), well-drained soil (pH 5.5:6.5), consistent moisture without waterlogging"
+    },
+    "Raspberry Healthy": {
+        "Disease Name": "Raspberry Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : plant exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Raspberry bushes (Rubus idaeus); represents optimal health status in well-managed patches across temperate regions.",
+        "Symptoms (visual + early signs)": "Bright green leaves without spots, yellowing, or wilting. Strong, flexible canes with abundant, uniformly colored berries. Minimal cane dieback or fruit rot.",
+        "How to Cure / Treat": "Not applicable; follow regular pruning, mulching, and watering practices to sustain health.",
+        "Prevention Tips": "Prune out old canes after harvest to encourage new growth. Thin new canes to 4-6 per hill for better air circulation. Mulch with straw or wood chips to retain moisture and suppress weeds. Water consistently (1:2 inches per week), especially during fruiting. Use trellises to support canes and improve air flow.",
+        "Recommended Pesticides/Fertilizers": "Balanced fertilizers like 10-10-10 NPK (1:2 lbs per 100 sq ft). No pesticides are typically required; use insecticidal soap or neem oil if pests like spider mites appear. Avoid over-fertilization to prevent soft growth susceptible to disease.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun to partial shade (4:6 hours of sun daily), well-drained loamy soil (pH 5.5:6.5), moderate rainfall or irrigation"
+    },
+    "Soybean Healthy": {
+        "Disease Name": "Soybean Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : plant exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Soybean plants (Glycine max); represents optimal health status in well-managed fields across temperate and subtropical regions.",
+        "Symptoms (visual + early signs)": "Uniform green leaves without spots, lesions, or yellowing. Well-filled pods with plump seeds. Vigorous growth with minimal lodging or nutrient deficiencies.",
+        "How to Cure / Treat": "Not applicable; maintain proper inoculation, irrigation, and nutrient management to sustain health.",
+        "Prevention Tips": "Rotate with non-legume crops like corn or small grains to preserve soil health. Inoculate seeds with rhizobia to ensure nitrogen fixation. Water adequately during pod fill (1-2 inches per week). Apply fertilizers based on soil test recommendations. Use certified disease-free seeds. Ensure proper row spacing (e.g., 15-30 inches) for air circulation.",
+        "Recommended Pesticides/Fertilizers": "Fertilizers based on soil test results (e.g., 0-20-20 NPK if needed). No pesticides are typically required; use imidacloprid if pests like aphids emerge. Avoid over-application of nitrogen, as soybeans fix their own.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun (6-8 hours daily), well-drained loamy soil (pH 6.0:6.8), consistent moisture during flowering and pod development"
+    },
+    "Squash Powdery Mildew": {
+        "Disease Name": "Squash Powdery Mildew",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Podosphaera xanthii, a fungus that thrives in warm, dry conditions with high humidity at night.",
+        "Commonly Affects (plants, regions)": "Squash plants (Cucurbita spp.); primarily affects leaves, stems, and petioles in warm regions worldwide.",
+        "Symptoms (visual + early signs)": "White, powdery fungal patches on leaves, stems, and petioles. Infected leaves may yellow, curl, or drop prematurely, reducing photosynthesis and fruit development. Severe infections can lead to stunted growth and poor fruit quality.",
+        "How to Cure / Treat": "Apply fungicides such as sulfur, potassium bicarbonate, or horticultural oil at the first signs of infection. Repeat applications every 7-10 days during warm, dry weather. Remove infected lower leaves to improve air circulation. Use resistant varieties where available, such as 'Delta' or 'Sunburst'.",
+        "Prevention Tips": "Space plants widely (e.g., 3-4 feet apart) and prune lower leaves to enhance air flow. Avoid overhead watering; use drip irrigation to keep foliage dry. Plant in full sun to reduce humidity around plants. Apply preventative fungicides in areas with a history of mildew.",
+        "Recommended Pesticides/Fertilizers": "Sulfur (2:3 lbs per 100 gallons), Potassium bicarbonate (1:2 lbs per acre), Horticultural oil (1% solution). Use balanced fertilizers to avoid excessive nitrogen, which can promote susceptible growth.",
+        "When It Usually Occurs": "Typically in warm days with humid nights, especially mid to late summer.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 60,
+            "max_humidity": 80
+        },
+        "Weather Conditions": "Warm, dry days with humid nights favoring fungal spore production and spread"
+    },
+    "Strawberry Leaf Scorch": {
+        "Disease Name": "Strawberry Leaf Scorch",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Diplocarpon earlianum, a fungus that overwinters in infected plant debris.",
+        "Commonly Affects (plants, regions)": "Strawberry plants (Fragaria × ananassa); primarily affects leaves in moist regions, such as the Pacific Northwest and parts of Europe.",
+        "Symptoms (visual + early signs)": "Small purple to brown spots on leaves that enlarge and merge, eventually turning leaves dark brown or black. Infected leaves may curl or become brittle, reducing photosynthesis and plant vigor. Severe infections can lead to reduced fruit production.",
+        "How to Cure / Treat": "Remove and destroy infected leaves during the season to reduce spore spread. Apply fungicides such as captan or myclobutanil starting at bloom, with repeat applications every 10-14 days in wet conditions. Use drip irrigation to keep foliage dry.",
+        "Prevention Tips": "Use resistant varieties like 'Hood' or 'Totem'. Ensure proper spacing (e.g., 12-18 inches apart) and use drip irrigation to reduce soil splash. Maintain good air circulation by removing weeds and thinning plants. Apply mulch to suppress soil-borne spores.",
+        "Recommended Pesticides/Fertilizers": "Captan (1:2 lbs per 100 gallons), Myclobutanil (2:4 oz per acre), Sulfur (organic option, apply every 7-10 days). Use low-nitrogen fertilizers to prevent excessive leaf growth, which can increase disease pressure.",
+        "When It Usually Occurs": "Most severe in wet, humid springs and summers, especially in regions with frequent rain.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 70,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Wet, humid weather promoting fungal growth and spore dispersal"
+    },
+    "Strawberry Healthy": {
+        "Disease Name": "Strawberry Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : plant exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Strawberry plants (Fragaria × ananassa); represents optimal health status in well-managed beds across temperate regions.",
+        "Symptoms (visual + early signs)": "Bright green leaves without spots, scorch, or yellowing. Red, plump, sweet fruit with smooth skin and consistent size. Vigorous growth with abundant runners and minimal dieback.",
+        "How to Cure / Treat": "Not applicable; maintain proper mulching, irrigation, and fertilization to sustain health.",
+        "Prevention Tips": "Use straw or plastic mulch to prevent soil splash and suppress weeds. Rotate crops every 3-4 years with non-hosts. Water consistently (about 1 inch per week), especially during fruiting. Fertilize in spring and post-harvest with balanced fertilizers. Remove old leaves after harvest to reduce disease carryover.",
+        "Recommended Pesticides/Fertilizers": "Balanced fertilizers like 10-10-10 NPK (1:2 lbs per 100 sq ft). No pesticides are typically required; use sulfur or copper-based fungicides preventatively if disease history exists. Avoid over-fertilization to prevent soft growth.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 15,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun (6:8 hours daily), well-drained soil (pH 5.5:6.5), consistent moisture without waterlogging"
+    },
+    "Tomato Bacterial Spot": {
+        "Disease Name": "Tomato Bacterial Spot",
+        "Cause (bacteria/fungi/virus/pest)": "Bacterial : caused by Xanthomonas campestris pv. vesicatoria, a bacterium that thrives in warm, wet conditions.",
+        "Commonly Affects (plants, regions)": "Tomato plants (Solanum lycopersicum); affects leaves, stems, and fruit in humid regions, such as the southeastern United States and tropical areas.",
+        "Symptoms (visual + early signs)": "Small, water-soaked spots on leaves that turn dark brown to black with yellow halos. Spots may coalesce, leading to leaf drop. On fruit, raised, scabby lesions develop, reducing marketability. Stem lesions can girdle the plant, causing wilting.",
+        "How to Cure / Treat": "Apply copper-based bactericides weekly during wet periods, starting at transplanting. Remove and destroy infected plants and debris. Use drip irrigation to avoid wetting foliage. In severe cases, rotate to non-host crops for 2-3 years.",
+        "Prevention Tips": "Use certified disease-free seeds or treat seeds with hot water (50°C for 25 minutes). Practice crop rotation with non-hosts (e.g., corn, beans). Avoid working in fields when plants are wet. Plant resistant varieties where available, such as 'Mountain Merit' or 'Defiant'.",
+        "Recommended Pesticides/Fertilizers": "Copper-based bactericides (e.g., copper hydroxide, 1:2 lbs per 100 gallons), Mancozeb (1.5:2 lbs per acre). Use fertilizers high in potassium to boost plant resistance. Avoid excessive nitrogen, which can promote susceptible growth.",
+        "When It Usually Occurs": "More common during warm, rainy conditions with poor air flow, typically mid to late summer.",
+        "Temperature": {
+            "min_temperature": 24,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 80,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Warm, rainy weather favoring bacterial spread and infection"
+    },
+    "Tomato Early Blight": {
+        "Disease Name": "Tomato Early Blight",
+        "Cause (bacteria/fungi/virus/pest)": "Fungal : caused by Alternaria solani, a fungus that survives in infected plant debris and soil.",
+        "Commonly Affects (plants, regions)": "Tomato plants (Solanum lycopersicum); primarily affects older leaves and eventually fruit in warm regions worldwide.",
+        "Symptoms (visual + early signs)": "Dark brown to black target-like spots on lower leaves, often with concentric rings. Spots enlarge and coalesce, leading to yellowing and defoliation. Fruit may develop dark, sunken lesions at the stem end, reducing marketability.",
+        "How to Cure / Treat": "Apply fungicides such as chlorothalonil, azoxystrobin, or mancozeb starting at flowering or earlier in wet seasons. Repeat applications every 7-10 days during favorable conditions. Remove infected debris and lower leaves to improve air circulation. Use drip irrigation to keep foliage dry.",
+        "Prevention Tips": "Rotate crops with non-solanaceous plants for 2-3 years. Stake or cage plants to improve air circulation. Avoid overhead watering. Use mulch to prevent soil splash. Plant resistant varieties like 'Mountain Magic' or 'Juliet'.",
+        "Recommended Pesticides/Fertilizers": "Chlorothalonil (1:1.5 pints per acre), Azoxystrobin (6:10 oz per acre), Mancozeb (1.5:2 lbs per acre). Use moderate nitrogen fertilizers to avoid excessive foliage growth, which can increase disease pressure.",
+        "When It Usually Occurs": "Favored by warm, wet weather with alternating dry periods, typically mid to late summer.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 60,
+            "max_humidity": 90
+        },
+        "Weather Conditions": "Warm and wet with intermittent dry spells, promoting fungal spore production and infection"
+    },
+    "Tomato Late Blight": {
+        "Disease Name": "Tomato Late Blight",
+        "Cause (bacteria/fungi/virus/pest)": "Oomycete : caused by Phytophthora infestans, a water mold that thrives in cool, wet conditions.",
+        "Commonly Affects (plants, regions)": "Tomato plants (Solanum lycopersicum); affects leaves, stems, and fruit in cool, humid regions, such as the Pacific Northwest and parts of Europe.",
+        "Symptoms (visual + early signs)": "Large, dark, water-soaked lesions on leaves, stems, and fruit. White fungal growth (sporangia) appears on the underside of leaves during humid conditions. Infected fruit develop brown, firm rot. Severe infections can lead to rapid plant death.",
+        "How to Cure / Treat": "Remove and destroy infected plants immediately to prevent spread. Apply fungicides such as copper-based products, chlorothalonil, or metalaxyl preventatively before wet conditions. Use a combination of systemic and protectant fungicides for best control. Ensure proper field drainage.",
+        "Prevention Tips": "Plant resistant varieties (e.g., 'Mountain Magic', 'Defiant'). Avoid overhead irrigation; use drip systems to keep foliage dry. Prune lower leaves to enhance air flow. Practice crop rotation with non-hosts for 3-4 years. Monitor weather forecasts and apply fungicides before rain.",
+        "Recommended Pesticides/Fertilizers": "Copper-based fungicides (1:2 lbs per 100 gallons), Chlorothalonil (1:1.5 pints per acre), Metalaxyl (0.5:1 lb per acre). Use balanced fertilizers to support plant health without promoting excessive growth.",
+        "When It Usually Occurs": "Rapid spread during cool, wet summers with prolonged leaf wetness, typically in regions with high humidity and rain.",
+        "Temperature": {
+            "min_temperature": 10,
+            "max_temperature": 25
+        },
+        "Humidity": {
+            "min_humidity": 80,
+            "max_humidity": 100
+        },
+        "Weather Conditions": "Cool and wet conditions with high humidity and extended periods of leaf wetness"
+    },
+    "Tomato Healthy": {
+        "Disease Name": "Tomato Healthy",
+        "Cause (bacteria/fungi/virus/pest)": "None : plant exhibits no disease or pest infestation, maintained through proper care.",
+        "Commonly Affects (plants, regions)": "Tomato plants (Solanum lycopersicum); represents optimal health status in well-managed gardens and fields across temperate and subtropical regions.",
+        "Symptoms (visual + early signs)": "Lush, green leaves without spots, yellowing, or curling. Sturdy stems with minimal lodging. Firm, smooth, and uniformly colored fruits with no blemishes or cracks. High yield with consistent fruit size and quality.",
+        "How to Cure / Treat": "Not applicable; maintain regular care including staking, watering, and fertilization to sustain health.",
+        "Prevention Tips": "Stake or cage plants to support fruit weight and enhance air circulation. Water at the base (1:2 inches per week) to avoid wetting foliage. Apply balanced fertilizers at planting and during fruit set. Rotate with non-solanaceous crops every 2-3 years. Use mulch to retain moisture and suppress weeds.",
+        "Recommended Pesticides/Fertilizers": "Fertilizers high in potassium and phosphorus (e.g., 5-10-10 NPK at 1:2 lbs per 100 sq ft). No pesticides are normally needed; use neem oil or insecticidal soap if pests like aphids appear. Avoid over-fertilization to prevent blossom end rot.",
+        "When It Usually Occurs": "Not applicable : represents a continuous healthy state with proper management.",
+        "Temperature": {
+            "min_temperature": 20,
+            "max_temperature": 30
+        },
+        "Humidity": {
+            "min_humidity": 50,
+            "max_humidity": 70
+        },
+        "Weather Conditions": "Full sun (6:8 hours daily), well-drained soil (pH 6.0:6.8), consistent moisture without waterlogging"
+    }
+}
